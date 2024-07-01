@@ -24,7 +24,7 @@ function setup() {
 
 function draw() {
   
-  // no loop
+  // noLoop()
 
 }
 
