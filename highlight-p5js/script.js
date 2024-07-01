@@ -18,8 +18,7 @@ let exampleRandomValue;
 **** **** **** */
 function setup() {
 
-  // fxhash predictable randomness
-  $fx.rand.reset();
+  // highlight predictable randomness
   exampleRandomValue = hl.random(0, 1);
 
   // Traits, title, and description
@@ -40,7 +39,7 @@ function setup() {
 
 function draw() {
 
-  // tell fxhash to capture preview image here
+  // tell highlight to capture preview image here
   if (hl.context.previewMode) { hl.token.capturePreview(); }
 
   //noLoop();
